@@ -1,0 +1,11 @@
+name: No Plugins
+main: baitercell.noPlugins.Main
+version: 1.0
+
+description: Cancels the /plugin message
+author: Baitercell
+
+commands:
+  hidden:
+    description: Returns the text hidden
+      usage /<command>
