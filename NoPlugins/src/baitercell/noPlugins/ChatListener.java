@@ -24,16 +24,11 @@ public class ChatListener implements Listener
 		String message = event.getMessage();
 		String s = "/plugins";
 		
-		System.out.println(message);
-		
 		if( p.isOp() == false )
-		{		
-			System.out.println(message);
+		{			
 			if( message.equalsIgnoreCase(s) )
-			{
-				System.out.println(message);
-				event.setMessage("/hidden");
-				System.out.println(message);
+			{	
+				event.setMessage("/hidden");	
 			}	
 		}	
 		return;	
